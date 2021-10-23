@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import ProgressBar from './ProgressBar';
+import { IoMdAdd } from 'react-icons/io';
 
 
 const UploadForm = () => {
@@ -26,12 +27,12 @@ const UploadForm = () => {
     }
     return (
         <>
-        <h3>upload file</h3>
+       
 
         <form className="form section">
-            <label>
+            <label className="add">
             <input type="file" hidden className="upload__container" onChange={handleChange}/>
-                upload
+              <i className="add-icon"> <IoMdAdd size="30px"/></i> 
             </label>
              <div className="output__container">
             {error && <div className="error">{error}</div>}
