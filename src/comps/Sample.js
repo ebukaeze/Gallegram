@@ -1,15 +1,13 @@
-import React from 'react'
+import React from 'react';
+import imgErr from './assets/images/image10.jpg';
 
 const Sample = () => {
     return (
         <div className="sample-grid">
             <div className="sample-container">
-            <h3>No internet Connection</h3>
-            <h3>No internet Connection</h3>
-            <h3>No internet Connection</h3>
-            <h3>No internet Connection</h3>
-            <h3>No internet Connection</h3>
-            <h3>No internet Connection</h3>
+               
+            <h1>404</h1>
+            
             </div>
         </div>
     )
